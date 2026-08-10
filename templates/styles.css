@@ -88,7 +88,7 @@ body {
 .brand {
     font-family: "Montserrat", sans-serif;
     font-size: 1.55rem;
-    color: var(--blue);
+    color: var(--ink);
     text-decoration: none;
     letter-spacing: 0.08em;
     font-weight: 900;
@@ -190,11 +190,13 @@ h1 {
 
 .hero-card img {
     width: 100%;
-    height: 220px;
+    max-width: 260px;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 14px;
+    object-position: center;
+    border-radius: 12px;
     display: block;
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem;
     background: linear-gradient(120deg, #f6e1bc, #d6ecff);
 }
 
@@ -240,6 +242,14 @@ section {
     max-width: none;
 }
 
+/* Vertically center the small "N/A" paragraph under Upcoming Events */
+#events .section-head p {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
 .grid-3 {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -274,6 +284,10 @@ section {
     border: 1px solid rgba(23, 34, 52, 0.12);
     border-radius: var(--radius);
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 160px;
 }
 
 .event time {

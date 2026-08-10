@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2673,
+    "product_type": "Raspberry Pi",
+    "price": 15.0,
+    "total": 2
+  },
+  {
+    "id": 2797,
+    "product_type": "USB Webcam w/ Microphone",
+    "price": 10,
+    "total": 7
+  },
+  {
+    "id": 3902,
+    "product_type": "dog dog",
+    "price": 2.0,
+    "total": 4
+  }
+]
