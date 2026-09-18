@@ -191,9 +191,7 @@ h1 {
 .hero-card img {
     width: 100%;
     max-width: 260px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center;
+    height: auto;
     border-radius: 12px;
     display: block;
     margin: 0 auto 1rem;
